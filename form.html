@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body class="whole">
+    <section class="container-fluid content">
+      <h1>Registration Form</h1>
+      <form name="MyForm" action="index.html" method="post">
+        <div class="form-group">
+          <div class="items">
+            <label for="first" required>First Name : </label>
+            <input class="form-control" type="text" name="First Name" id="first" value="">
+          </div>
+          <br>
+          <br>
+          <div class="items">
+            <label for="mid">Middle Name : </label>
+            <input class="form-control" type="text" name="middle Name" id="mid" value="">
+          </div>
+          <br>
+          <br>
+          <div class="items">
+            <label for="last">Last Name : </label>
+            <input class="form-control" type="text" name="last" id="last Name" value="" required>
+          </div>
+          <br>
+          <br>
+          <div class="items">
+            <label for="gender">Gender : </label>
+            <br>
+            <input type="radio" name="gender" value="Male">Male
+            <br>
+            <input type="radio" name="gender" value="">Female
+          </div>
+          <br>
+          <br>
+          <div class="items">
+            <label for="mail" >Enter Email : </label>
+            <input class="form-control" type="text" name="mail" id="mail ID" value="" required>
+          </div>
+          <br>
+          <br>
+          <div class="items">
+            <label for="pwd">Password : </label>
+            <input class="form-control" type="password" name="password" id="pwd" value="" >
+          </div>
+          <br>
+          <br>
+          <div class="items">
+            <label for="pwd2">Reenter Password : </label>
+            <input class="form-control" type="password" name="Reenter Password" id="pwd2" value="" >
+          </div>
+          <br>
+          <br>
+        </div>
+        <button class="btn btn-primary" role="button" type="button" name="button">Submit</button>
+      </form>
+    </section>
+   <script src="form.js">
+
+   </script>
+
+  </body>
+</html>
